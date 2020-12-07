@@ -7,6 +7,14 @@ code {
   color: #E01A76;
 }
 
+label, input {
+    display: block;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumbers", "PrimeNumbers.csproj", "{EC2984D1-64E0-4BF7-ACD6-5F267824E747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumbers", "PrimeNumbers.csproj", "{EC2984D1-64E0-4BF7-ACD6-5F267824E747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitPrimeNumbers", "..\XUnitPrimeNumbers\XUnitPrimeNumbers.csproj", "{3C710114-E289-4DFE-A7E6-AB06513334DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EC2984D1-64E0-4BF7-ACD6-5F267824E747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC2984D1-64E0-4BF7-ACD6-5F267824E747}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC2984D1-64E0-4BF7-ACD6-5F267824E747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C710114-E289-4DFE-A7E6-AB06513334DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C710114-E289-4DFE-A7E6-AB06513334DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C710114-E289-4DFE-A7E6-AB06513334DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C710114-E289-4DFE-A7E6-AB06513334DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
