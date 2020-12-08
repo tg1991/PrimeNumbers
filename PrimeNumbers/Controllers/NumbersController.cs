@@ -5,7 +5,7 @@ namespace PrimeNumbers.Controllers
 {
     public class NumbersController
     {
-        public static string RemovePrimeNumbers(string numbers)
+        public string RemovePrimeNumbers(string numbers)
         {
             var separated = numbers.Split(new char[] { ',' });
             List<int> parsedNumbers = separated.Select(s => int.Parse(s)).ToList();

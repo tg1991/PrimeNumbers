@@ -22,7 +22,9 @@ namespace PrimeNumbers.Controllers
         [HttpGet]
         public string Get(string numbers)
         {
-            string removedNumbers = NumbersController.RemovePrimeNumbers(numbers);
+            NumbersController numbersController = new NumbersController();
+
+            string removedNumbers = numbersController.RemovePrimeNumbers(numbers);
 
             return removedNumbers;
         }
